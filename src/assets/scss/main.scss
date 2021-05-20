@@ -14,17 +14,24 @@
   background-color: $body-bg;
   overflow-x: hidden;
   scroll-behavior: smooth;
+    background: url('https://images.unsplash.com/photo-1528819027803-5473f2bf7633?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80');
+    background-size: cover;
 }
 
 main {
   flex-grow: 1;
   display: flex;
   align-items: stretch;
-  background: url('https://images.unsplash.com/photo-1528819027803-5473f2bf7633?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80');
-  background-size: cover;
+
 }
 
 .main-text {
     color: white;
     text-shadow: 0 2px black;
+}
+
+button {
+    color: #fff !important;
+    background-color: #294985 !important;
+    border-color: #294985 !important;
 }

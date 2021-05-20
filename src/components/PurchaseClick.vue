@@ -11,13 +11,9 @@
           to additional content. This content is a little bit longer.
         </p>
       </div>
-      <div class="card-footer d-flex">
-        <h5>
-          {{ upgrade.price }}
-        </h5>
-        <button class="btn btn-danger" type="button" @click="purchase">
-          BUY
-        </button>
+      <div class="card-footer d-flex justify-content-around">
+        <h5 class="mt-1">Cost: {{ upgrade.price }}</h5>
+        <button class="btn" type="button" @click="purchase">BUY</button>
       </div>
     </div>
   </div>

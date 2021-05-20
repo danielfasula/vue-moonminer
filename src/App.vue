@@ -1,4 +1,7 @@
 <template>
+  <header class="main-text text-center mt-1">
+    <h1>Harvest The Humans!</h1>
+  </header>
   <main>
     <router-view />
   </main>
